@@ -1,0 +1,136 @@
+{
+  "name": "devex-rates",
+  "description": "Roblox Developer Exchange (DevEx) rates: the three rates in force today, every rate change on record, and the payout minimum. Maintained by LootTally.",
+  "version": "1.0.0",
+  "exported": "2026-09-05",
+  "rates_last_verified": "2026-08-23",
+  "source_of_truth": "https://loottally.com/devex-rates",
+  "maintained_by": {
+    "name": "LootTally",
+    "url": "https://loottally.com"
+  },
+  "license": {
+    "code": "MIT",
+    "data": "CC-BY-4.0",
+    "attribution": "DevEx rate data by LootTally (loottally.com), CC BY 4.0"
+  },
+  "minimum_earned_robux": 30000,
+  "processing_business_days": {
+    "first_time": 10,
+    "returning": 5,
+    "note": "Plus the receiving bank's own processing time.",
+    "source": "https://create.roblox.com/docs/production/monetization/developer-exchange"
+  },
+  "rates": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "usd_per_robux": 0.0038,
+      "per_100k_usd": 380,
+      "per_30k_usd": 114,
+      "is_default": true,
+      "effective_from": "2025-09-05",
+      "effective_from_note": "September 5, 2025 at 10am PT",
+      "effective_until": null,
+      "applies_to": "All Earned Robux, unless it qualifies for the U.S. 18+ rate or sits in a pre-September 2025 balance.",
+      "source": "https://create.roblox.com/docs/production/monetization/developer-exchange"
+    },
+    {
+      "id": "us18",
+      "label": "U.S. 18+",
+      "usd_per_robux": 0.0054,
+      "per_100k_usd": 540,
+      "per_30k_usd": 162,
+      "is_default": false,
+      "effective_from": "2026-06-08",
+      "effective_from_note": "June 8, 2026",
+      "effective_until": null,
+      "applies_to": "Earned Robux from developer products, passes, subscriptions and private servers bought by U.S. players who verified they are 18+, in an experience that meets the R15 character requirements.",
+      "source": "https://create.roblox.com/docs/production/monetization/18-plus-devex-rate"
+    },
+    {
+      "id": "legacy",
+      "label": "Legacy",
+      "usd_per_robux": 0.0035,
+      "per_100k_usd": 350,
+      "per_30k_usd": 105,
+      "is_default": false,
+      "effective_from": "2017-03-01",
+      "effective_from_note": "Standard rate until September 5, 2025 at 10am PT",
+      "effective_until": "2025-09-05",
+      "applies_to": "Earned Robux balances held before September 5, 2025 at 10am PT. These cash out first, before any Robux earned at the current rate.",
+      "source": "https://create.roblox.com/docs/production/monetization/developer-exchange"
+    }
+  ],
+  "history": [
+    {
+      "date": "2013-10-01",
+      "kind": "launch",
+      "usd_per_robux": 0.0025,
+      "previous_usd_per_robux": null,
+      "change_pct": null,
+      "per_100k_usd": 250,
+      "headline": "DevEx launches",
+      "detail": "Roblox opens the Developer Exchange, letting qualifying creators convert Earned Robux into real currency once a month.",
+      "source_tier": "secondary",
+      "source_label": "Community-documented",
+      "source": "https://roblox.fandom.com/wiki/Robux"
+    },
+    {
+      "date": "2017-03-01",
+      "kind": "increase",
+      "usd_per_robux": 0.0035,
+      "previous_usd_per_robux": 0.0025,
+      "change_pct": 40,
+      "per_100k_usd": 350,
+      "headline": "Rate rises to $0.0035",
+      "detail": "The payout rate moves from $0.0025 to $0.0035 per Earned Robux, where it stays for the next eight years.",
+      "source_tier": "secondary",
+      "source_label": "Community-documented",
+      "source": "https://roblox.fandom.com/wiki/Robux"
+    },
+    {
+      "date": "2025-09-05",
+      "kind": "increase",
+      "usd_per_robux": 0.0038,
+      "previous_usd_per_robux": 0.0035,
+      "change_pct": 8.6,
+      "per_100k_usd": 380,
+      "headline": "Standard rate rises to $0.0038",
+      "detail": "Effective 10am PT. Balances earned before this moment keep the $0.0035 rate and must be cashed out first.",
+      "source_tier": "first_party",
+      "source_label": "Roblox Creator Hub",
+      "source": "https://create.roblox.com/docs/production/monetization/developer-exchange"
+    },
+    {
+      "date": "2026-06-08",
+      "kind": "new_tier",
+      "usd_per_robux": 0.0054,
+      "previous_usd_per_robux": 0.0038,
+      "change_pct": 42.1,
+      "per_100k_usd": 540,
+      "headline": "U.S. 18+ rate introduced at $0.0054",
+      "detail": "A third rate, not a replacement. It applies only to spend from age-verified 18+ U.S. players on developer products, passes, subscriptions and private servers, in experiences that meet the R15 character requirements.",
+      "source_tier": "first_party",
+      "source_label": "Roblox Creator Hub",
+      "source": "https://create.roblox.com/docs/production/monetization/18-plus-devex-rate"
+    }
+  ],
+  "rules": {
+    "legacy_balance": [
+      "Old-rate balances must be cashed out before any Robux earned at the current rate. This includes one-time payouts from groups.",
+      "Spending Robux on the platform does not clear your old-rate balance. Spending deducts from your total balance, but it does not count toward clearing the previous-rate Earned Robux first."
+    ],
+    "us18_qualifying_purchases": [
+      "Developer products",
+      "Passes",
+      "Subscriptions",
+      "Private servers"
+    ],
+    "us18_experience_requirements": [
+      "Players must spend 100% of active playtime as an R15 platform avatar, with no R6 spawning or switching",
+      "Custom human-form characters need roughly 1 head, 2 arms and 2 legs, 12 limb parts or joints distributed evenly, a torso with at least 2 parts or joints, and full bipedal range of motion",
+      "Animation packs must be R15, not R6"
+    ]
+  }
+}

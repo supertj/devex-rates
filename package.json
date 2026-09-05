@@ -1,0 +1,19 @@
+{
+  "name": "devex-rates",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Roblox Developer Exchange (DevEx) rates as data, with a Luau module. Maintained by LootTally.",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supertj/devex-rates.git"
+  },
+  "homepage": "https://loottally.com/devex-rates",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
