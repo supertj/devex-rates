@@ -2,6 +2,10 @@
 
 All notable changes to the data or the module. Dates are when the change landed here; each entry names the Roblox source it follows.
 
+## 1.0.2 — 2026-09-27
+
+- U.S. 18+ experience requirements now read as Roblox writes them: player characters must be one of three types (R15 platform avatar, custom human-form, custom nonhuman-form), not all three.
+
 ## 1.0.1 — 2026-09-27
 
 - Re-verified every rate against Roblox's documentation on 2026-09-27. No rate, date or threshold changed.

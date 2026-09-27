@@ -1,6 +1,6 @@
 {
   "name": "devex-rates",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "description": "Roblox Developer Exchange (DevEx) rates as data, with a Luau module. Maintained by LootTally.",
   "type": "module",
