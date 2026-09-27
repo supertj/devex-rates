@@ -1,5 +1,7 @@
 # devex-rates
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22992734.svg)](https://doi.org/10.5281/zenodo.22992734)
+
 Roblox Developer Exchange (DevEx) rates as data: the three rates in force today, every rate change on record, the payout minimum, and a dependency-free Luau module that does the arithmetic.
 
 Maintained by [LootTally](https://loottally.com), synced from [loottally.com/devex-rates](https://loottally.com/devex-rates). Rates last verified against Roblox's documentation on **2026-09-27**.
@@ -75,6 +77,10 @@ Pin a tag instead of `main` if you need the numbers to stay put.
 - `node scripts/check.mjs` runs in CI on every push. It validates the JSON, checks the arithmetic, and fails if the Luau module's numbers drift from the data.
 - Every change is listed in [CHANGELOG.md](CHANGELOG.md).
 - Found a discrepancy? Open an issue with a link to the Roblox source.
+
+## Citing
+
+Archived on Zenodo: [10.5281/zenodo.22992734](https://doi.org/10.5281/zenodo.22992734). That DOI always points to the latest version; each release also gets its own.
 
 ## Sources
 
