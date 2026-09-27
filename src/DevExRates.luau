@@ -9,7 +9,7 @@
 
 	No HttpService, no yielding, no external calls. It is a table and five functions.
 
-	Rates last verified against Roblox's documentation: 2026-08-23.
+	Rates last verified against Roblox's documentation: 2026-09-27.
 	Maintained by LootTally — https://loottally.com/devex-rates
 	Code: MIT. Data: CC BY 4.0.
 ]]
@@ -38,8 +38,8 @@ export type HistoryEvent = {
 
 local DevExRates = {}
 
-DevExRates.VERSION = "1.0.0"
-DevExRates.RATES_LAST_VERIFIED = "2026-08-23"
+DevExRates.VERSION = "1.0.1"
+DevExRates.RATES_LAST_VERIFIED = "2026-09-27"
 DevExRates.SOURCE_OF_TRUTH = "https://loottally.com/devex-rates"
 
 --- Earned Robux you need before a first cashout is possible.
@@ -171,7 +171,7 @@ function DevExRates.rateOn(isoDate: string): number?
 end
 
 --- Whether an Earned Robux balance clears the minimum for a first cashout.
---- The other eligibility conditions (verified email, Premium, tax form, standing)
+--- The other eligibility conditions (age, verified email, DevEx portal account, tax form, standing)
 --- are not something a rate table can know.
 function DevExRates.meetsMinimum(earnedRobux: number): boolean
 	return earnedRobux >= DevExRates.MINIMUM_EARNED_ROBUX

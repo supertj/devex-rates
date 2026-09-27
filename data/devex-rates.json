@@ -1,9 +1,9 @@
 {
   "name": "devex-rates",
   "description": "Roblox Developer Exchange (DevEx) rates: the three rates in force today, every rate change on record, and the payout minimum. Maintained by LootTally.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "exported": "2026-09-05",
-  "rates_last_verified": "2026-08-23",
+  "rates_last_verified": "2026-09-27",
   "source_of_truth": "https://loottally.com/devex-rates",
   "maintained_by": {
     "name": "LootTally",
@@ -128,8 +128,9 @@
       "Private servers"
     ],
     "us18_experience_requirements": [
-      "Players must spend 100% of active playtime as an R15 platform avatar, with no R6 spawning or switching",
+      "Players must spend 100% of active playtime as a platform avatar with a standard or advanced R15 rig, with no R6 spawning or switching",
       "Custom human-form characters need roughly 1 head, 2 arms and 2 legs, 12 limb parts or joints distributed evenly, a torso with at least 2 parts or joints, and full bipedal range of motion",
+      "Custom nonhuman-form characters also qualify, and so do games with no visible player character",
       "Animation packs must be R15, not R6"
     ]
   }

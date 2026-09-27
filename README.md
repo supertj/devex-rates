@@ -2,7 +2,7 @@
 
 Roblox Developer Exchange (DevEx) rates as data: the three rates in force today, every rate change on record, the payout minimum, and a dependency-free Luau module that does the arithmetic.
 
-Maintained by [LootTally](https://loottally.com), synced from [loottally.com/devex-rates](https://loottally.com/devex-rates). Rates last verified against Roblox's documentation on **2026-08-23**.
+Maintained by [LootTally](https://loottally.com), synced from [loottally.com/devex-rates](https://loottally.com/devex-rates). Rates last verified against Roblox's documentation on **2026-09-27**.
 
 ## Why this exists
 
