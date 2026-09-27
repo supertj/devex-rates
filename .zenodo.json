@@ -1,0 +1,12 @@
+{
+  "title": "devex-rates: Roblox Developer Exchange (DevEx) rates as data",
+  "upload_type": "dataset",
+  "description": "<p>Roblox Developer Exchange (DevEx) rates as structured data: the three rates in force (standard $0.0038, U.S. 18+ $0.0054, legacy $0.0035 per Earned Robux), every rate change on record since 2013 with its source, the 30,000 Earned Robux minimum, and a dependency-free Luau module that does the arithmetic.</p><p>Roblox does not publish a rate archive. The data is re-verified against Roblox's documentation at least every 45 days and is maintained alongside the rate history at <a href=\"https://loottally.com/devex-rates\">LootTally's DevEx rates page</a>.</p><p>Data: CC BY 4.0. Code: MIT.</p>",
+  "creators": [{ "name": "SuperLede", "affiliation": "LootTally" }],
+  "license": "cc-by-4.0",
+  "keywords": ["Roblox", "DevEx", "Developer Exchange", "Robux", "creator economy", "Luau", "dataset"],
+  "related_identifiers": [
+    { "identifier": "https://loottally.com/devex-rates", "relation": "isSupplementTo", "resource_type": "other" },
+    { "identifier": "https://github.com/supertj/devex-rates", "relation": "isSupplementTo", "resource_type": "software" }
+  ]
+}

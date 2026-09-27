@@ -38,7 +38,7 @@ export type HistoryEvent = {
 
 local DevExRates = {}
 
-DevExRates.VERSION = "1.0.2"
+DevExRates.VERSION = "1.0.3"
 DevExRates.RATES_LAST_VERIFIED = "2026-09-27"
 DevExRates.SOURCE_OF_TRUTH = "https://loottally.com/devex-rates"
 

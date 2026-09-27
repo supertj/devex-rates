@@ -1,7 +1,7 @@
 {
   "name": "devex-rates",
   "description": "Roblox Developer Exchange (DevEx) rates: the three rates in force today, every rate change on record, and the payout minimum. Maintained by LootTally.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "exported": "2026-09-05",
   "rates_last_verified": "2026-09-27",
   "source_of_truth": "https://loottally.com/devex-rates",
